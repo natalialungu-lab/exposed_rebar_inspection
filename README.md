@@ -22,7 +22,7 @@ The system must identify likely visible exposed reinforcement in inspection imag
 ## Model and training configuration
 
 - **Framework:** Ultralytics YOLOv8 segmentation.
-- **Model:** [Insert model, e.g. YOLOv8n-seg].
+- **Model:** [Insert model, e.g. YOLOv8n-seg]. 
 - **Epochs:** 30.
 - **Image size:** [Insert image size].
 - **Batch size:** [Insert batch size].
