@@ -12,8 +12,8 @@ The system must identify likely visible exposed reinforcement in inspection imag
 
 ## Dataset and class definition
 
-- **Dataset:** [Insert Roboflow dataset link]
-- **Split:** 80% training / 20% validation.
+- **Dataset:** https://universe.roboflow.com/rebar-exposure-and-spalling/rebar-exposure-qm02o/dataset/4
+- **Split:** 1,547 training images and 168 validation images
 - **Class:** `exposed_rebar`.
 - **Positive definition:** A reinforcing steel bar visibly exposed because the concrete cover is absent or broken.
 - **Excluded cases:** Cracks, rust staining without visible steel, spalled concrete without distinct reinforcement, shadows, wire mesh, pipes, and other metal objects.
@@ -22,12 +22,14 @@ The system must identify likely visible exposed reinforcement in inspection imag
 ## Model and training configuration
 
 - **Framework:** Ultralytics YOLOv8 segmentation.
-- **Model:** [Insert model, e.g. YOLOv8n-seg]. 
+- **Model:** YOLOv8n-seg (`yolov8n-seg.pt`).
 - **Epochs:** 30.
-- **Image size:** [Insert image size].
-- **Batch size:** [Insert batch size].
-- **Dataset version:** [Insert Roboflow version/link].
-- **Ultralytics version:** [Insert version].
+- **Image size:** 640.
+- **Batch size:** 8.
+- **Device:** NVIDIA Tesla T4 GPU.
+- **Random seed:** 42.
+- **Training duration:** approximately 20 minutes.
+- **Dataset version:** Roboflow `rebar-exposure-qm020`, version 4.
 
 ## Results summary
 
@@ -53,12 +55,12 @@ Key observations:
 
 ## Reproducibility proof
 
-- **Last successful run:** [Insert date and time].
-- **Hardware:** [Insert GPU or CPU].
-- **Expected runtime:** [Insert range].
-- **Training parameters:** 30 epochs; batch size [insert]; image size [insert].
-- **Outputs:** validation metrics table and saved training curves.
-- If a GPU is unavailable, a short verification run may be completed and the trained weights loaded for inference; this must be stated clearly.
+- **Last successful run:** 19 September 2026, approximately 17:00 CEST.
+- **Hardware:** NVIDIA Tesla T4 GPU (14,913 MiB).
+- **Expected runtime:** approximately 20 minutes for 30 epochs.
+- **Training parameters:** 30 epochs; batch size 8; image size 640; random seed 42.
+- **Outputs:** validation metrics table, `results.csv`, training curves, confusion matrices, labelled validation images, validation predictions, and `best.pt` weights.
+- **Final run folder in Colab:** `/content/runs/exposed_rebar_30epochs/`.
 
 ## Repository contents
 
@@ -69,7 +71,7 @@ Key observations:
 - [Training curves](results/curves/) — training and validation evidence.
 - [Evidence pack](results/evidence/) — annotations and prediction examples.
 - [Reports](reports/) — final slides and mini report.
-- **Model weights:** [Insert download link to `best.pt`].
+- **Model weights:**  To be added as a GitHub Release or external download link after uploading `best.pt
 
 ## Limitations and responsible use
 
