@@ -16,8 +16,8 @@ Do not label rust stains without visible steel, spalled concrete without visible
 
 Label partially visible reinforcement only when it is clearly identifiable as rebar.
 
-## Box rule
-Draw one tight bounding box around each separate continuous visible rebar segment. Include only visible steel and exclude surrounding concrete, voids, rust stains, and shadows. If parallel bars are clearly separate, draw one box for each bar.
+## Mask rule
+Annotate the visible pixels of each exposed reinforcement region. Exclude surrounding concrete, voids, rust stains, and shadows. Do not label cracks unless visible reinforcement steel is clearly present.
 
 ## Minimum size
 20 x 20 pixels in the original image. Do not label smaller or unclear objects.
