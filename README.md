@@ -51,7 +51,7 @@ Key observations:
 2. In Colab, select **Runtime > Change runtime type > T4 GPU**, if available.
 3. Run all cells from top to bottom.
 4. The notebook downloads the dataset, trains the model for 30 epochs, evaluates validation metrics, and saves plots.
-5. For inference on new images, open [baseline inference notebook](notebooks/baseline_inference.ipynb) and run all cells.
+5. 5. For inference on new images, use the inference section at the end of the [training and evaluation notebook](notebooks/training_evaluation.ipynb), after the training and validation cells.
 
 ## Reproducibility proof
 
