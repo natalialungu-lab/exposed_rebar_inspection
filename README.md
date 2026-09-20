@@ -66,10 +66,8 @@ Key observations:
 
 - [Notebooks](notebooks/) — baseline inference and training/evaluation.
 - [Class definitions](docs/class_definition.md) — target class and annotation rules.
-- [Error analysis](docs/error_analysis.md) — qualitative failure analysis and data-improvement actions.
-- [Governance checklist](docs/governance_checklist.md) — privacy, limitations, and risk controls.
 - [Training curves](results/curves/) — training and validation evidence.
-- [Evidence pack](results/evidence/) — annotations and prediction examples.
+- [Evidence pack](results/evidence/) — validation outputs and segmentation predictions on new inspection images.
 - [Reports](reports/) — final slides and mini report.
 - **Model weights:** [`best.pt`](models/best.pt) — trained YOLOv8n-seg checkpoint from the final 30-epoch run.
 
