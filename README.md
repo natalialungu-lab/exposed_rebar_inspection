@@ -71,7 +71,7 @@ Key observations:
 - [Training curves](results/curves/) — training and validation evidence.
 - [Evidence pack](results/evidence/) — annotations and prediction examples.
 - [Reports](reports/) — final slides and mini report.
-- **Model weights:**  To be added as a GitHub Release or external download link after uploading `best.pt
+- **Model weights:** [`best.pt`](models/best.pt) — trained YOLOv8n-seg checkpoint from the final 30-epoch run.
 
 ## Limitations and responsible use
 
