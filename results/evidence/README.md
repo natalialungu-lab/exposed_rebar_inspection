@@ -1,11 +1,19 @@
 # Prediction evidence
 
-This folder contains segmentation predictions produced by the trained YOLOv8n-seg model on new reinforced-concrete inspection images.
+This folder contains segmentation predictions produced by the trained YOLOv8n-seg model on eight reinforced-concrete inspection images outside the training workflow.
 
-- `new_image_4.jpg`: Prediction on a concrete column or wall area with local exposed reinforcement.
-- `new_image_5.jpg`: Prediction on an overhead concrete element with exposed reinforcement.
-- `new_image_8.jpg`: Prediction on a damaged concrete wall or column area.
+## Files
 
-Blue regions show the predicted segmentation masks. Blue rectangles show predicted bounding boxes. These images demonstrate model inference on images outside the training workflow.
+- `contact_sheet.jpg`: Overview of all eight prediction outputs.
+- `new_image_1.jpg` to `new_image_4.jpg`: Predictions for inspection images 1–4.
+- `new_image_6.jpg` to `new_image_9.jpg`: Predictions for inspection images 6–9.
+- `annotation_example.png`: Example of a ground-truth annotation used during dataset preparation.
+- `val_batch0_pred.jpg` to `val_batch2_pred.jpg`: Predictions on validation batches during training.
+
+Image 5 was excluded because it was a duplicate.
+
+## Interpretation
+
+Blue segmentation masks identify areas predicted as exposed reinforcement. Blue rectangles indicate the corresponding predicted bounding boxes. The evidence includes a no-detection case (`new_image_1.jpg`) and detections under varied viewpoints, lighting conditions, and structural elements.
 
 For quantitative validation results, see [`../curves/results.png`](../curves/results.png) and [`../curves/results.csv`](../curves/results.csv).
