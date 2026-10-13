@@ -86,8 +86,11 @@ Predictions must be reviewed by a qualified engineer. The model can confuse expo
 
 The exposed-rebar dataset used in this prototype was sourced from Roboflow Universe and is used under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).
 
-Dataset author: **[insert exact Roboflow author or workspace name]**  
-Dataset page: **[paste exact Roboflow dataset URL]**  
+Dataset author: **rebar exposure and spalling**  
+Dataset page: https://universe.roboflow.com/rebar-exposure-and-spalling/rebar-exposure-qm02o  
+Dataset version used: **4**  
 Licence: https://creativecommons.org/licenses/by/4.0/
+
+The dataset remains subject to its original licence and attribution requirements.
 
 The dataset remains subject to its original licence and attribution requirements.
