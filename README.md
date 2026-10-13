@@ -81,7 +81,7 @@ Predictions must be reviewed by a qualified engineer. The model can confuse expo
 
 ## Deliverables
 
-- [Slides PDF](reports/Slides%20PDF.pdf)
+- [Slides PDF][(reports/Slides%20PDF.pdf](https://github.com/natalialungu-lab/exposed_rebar_inspection/blob/main/reports/Mini%20report%20PDF.pdf))
 - [Mini report PDF](reports/Mini%20report%20PDF.pdf)
 
 ## Dataset attribution
