@@ -79,3 +79,13 @@ Predictions must be reviewed by a qualified engineer. The model can confuse expo
 
 - [Slides PDF](reports/Slides%20PDF.pdf)
 - [Mini report PDF](reports/Mini%20report%20PDF.pdf)
+
+## Dataset attribution
+
+The exposed-rebar dataset used in this prototype was sourced from Roboflow Universe and is used under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).
+
+Dataset author: **[insert exact Roboflow author or workspace name]**  
+Dataset page: **[paste exact Roboflow dataset URL]**  
+Licence: https://creativecommons.org/licenses/by/4.0/
+
+The dataset remains subject to its original licence and attribution requirements.
