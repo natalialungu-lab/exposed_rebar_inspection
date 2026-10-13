@@ -20,6 +20,16 @@ A false negative can occur when actual exposed reinforcement is small, partly oc
 
 **Mitigation:** add annotated examples with small, occluded, low-light, and oblique-view targets. Use higher-quality inspection photographs and validate the model on independent site images.
 
+## Observed no-detection case: `new_image_1.jpg`
+
+The final model produced no exposed-reinforcement prediction for `new_image_1.jpg`, as shown in `results/evidence/new_image_1.jpg`. This image is recorded as a no-detection case. It should be classified as a confirmed false negative only if manual review of the original inspection photograph verifies that exposed reinforcement is genuinely visible.
+
+Possible contributing factors include the wide camera view, low contrast between the concrete surface and the suspected defect, shadows, and a limited visible target area.
+
+**Engineering consequence:** a no-detection result must not be interpreted as confirmation that the inspected element is defect-free. A qualified structural engineer must review the original image and, where necessary, conduct site verification.
+
+**Mitigation:** add annotated training examples with wide views, low-contrast defects, shadows, and small exposed-reinforcement regions; then validate the revised model using independent site images.
+
 ## Interpretation and safe use
 
 The model output is an inspection flag only. A positive prediction does not confirm corrosion severity, structural safety, or repair scope. Similarly, an absent prediction does not confirm that a concrete element is free from defects.
