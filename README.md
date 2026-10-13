@@ -92,5 +92,3 @@ Dataset version used: **4**
 Licence: https://creativecommons.org/licenses/by/4.0/
 
 The dataset remains subject to its original licence and attribution requirements.
-
-The dataset remains subject to its original licence and attribution requirements.
