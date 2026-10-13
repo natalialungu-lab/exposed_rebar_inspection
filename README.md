@@ -66,6 +66,8 @@ Key observations:
 
 - [Notebooks](notebooks/) — baseline inference and training/evaluation.
 - [Class definitions](docs/class_definition.md) — target class and annotation rules.
+- [Error analysis](docs/error_analysis.md) — qualitative false-positive and false-negative review.
+- [Governance checklist](docs/governance_checklist.md) — data rights, privacy, responsible use, and risk controls.
 - [Training curves](results/curves/) — training and validation evidence.
 - [Evidence pack](results/evidence/) — validation outputs and segmentation predictions on new inspection images.
 - [Reports](reports/) — final slides and mini report.
