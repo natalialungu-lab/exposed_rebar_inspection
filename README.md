@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/natalialungu-lab/exposed_rebar_inspection/blob/main/notebooks/training_evaluation.ipynb)
+
 # Exposed Rebar Inspection
 
 YOLOv8 segmentation prototype for flagging visible exposed reinforcement in reinforced-concrete inspection images for qualified human review.
